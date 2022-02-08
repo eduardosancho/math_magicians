@@ -1,6 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 import Name from './Name';
+import Comment from './Comment';
+
+const comment = {
+  date: new Date(),
+  text: 'I hope you enjoy learning React!',
+  author: {
+    name: 'Hello Kitty',
+    avatarUrl: 'http://placekitten.com/g/64/64',
+  },
+};
 
 function App() {
   return (
@@ -26,6 +36,15 @@ function App() {
           <Name name=" Johnny" />
           <Name name=" Sahar" />
           <Name name=" Ana" />
+        </div>
+
+        <div>
+          <Comment
+            date={comment.date}
+            text={comment.text}
+            authorName={comment.author.name}
+            authorAvatar={comment.author.avatarUrl}
+          />
         </div>
       </header>
     </div>
