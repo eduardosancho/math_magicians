@@ -1,4 +1,5 @@
 import propTypes from 'prop-types';
+import Avatar from './Avatar';
 
 function formatDate(date) {
   return date.toLocaleDateString();
@@ -13,10 +14,9 @@ function Comment({
   return (
     <div className="Comment">
       <div className="UserInfo">
-        <img
-          className="Avatar"
-          src={authorAvatar}
-          alt={authorName}
+        <Avatar
+          source={authorAvatar}
+          alternateText={authorName}
         />
         <div className="UserInfo-name">
           {authorName}
