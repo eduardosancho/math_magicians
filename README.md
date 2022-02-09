@@ -1,70 +1,103 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Math Magicians
 
-## Available Scripts
+> "Math magicians" is a website for all fans of mathematics. 
+It is a Single Page App (SPA) that allows users to: Make simple calculations and read a random math-related quote.
 
-In the project directory, you can run:
+![screenshot](app_screenshot.png)
 
-### `npm start`
+## Live Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Check out this project live, click [here](https://eduardosancho.github.io/math_magicians/)
+<hr>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Built With
 
-### `npm test`
+- Major languages: JavaScript, HTML, CSS
+- Frameworks: React
+- Technologies used: Webpack
+<hr>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+To get a local copy up and running follow these simple example steps.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Setup
+Clone this repo into your local device by running the following command on your Terminal:
+```
+git clone https://github.com/eduardosancho/math_magicians.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+That will create a folder with the project inside it. Navigate into it to access the files.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Also remember to run:
+```
+npm install
+```
+This will update the dependencies and download necessary files.
+<hr>
 
-### `npm run eject`
+### Usage
+Before you begin testing and experimenting, remember to use the Terminal to create a branch by running:
+``
+git checkout -b <branch-name>
+``
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Alternatively, if you use GitFlow, you can run the following command to create a new branch:
+``
+git flow feature start <branch-name>
+``
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+After that you should be ready to go.
+<hr>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Run tests
+Before pushing changes to your branch, I would recommend opening this file:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+``
+/.github/workflows/linters.yml
+``
 
-## Learn More
+install and run stylelint, and eslint
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+These linters will help you fit your code to this repo's syntax standard.
+<hr>
 
 ### Deployment
+Once you're done with your changes, remember to ``git pull`` before doing ``git push``. 
+This will update your local copy of the project if someone else made changes to the repo while you worked on your part.
+<hr>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Author
 
-### `npm run build` fails to minify
+👤 **Eduardo Sancho Solano**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- GitHub: [@eduardosancho](https://github.com/eduardosancho)
+- Twitter: [@sanchitobless](https://twitter.com/sanchitobless)
+- LinkedIn: [Eduardo](https://www.linkedin.com/in/eduardo-sancho-043641181/)
+<hr>
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<hr>
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+<hr>
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+<hr>
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
