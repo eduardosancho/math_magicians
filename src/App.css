@@ -34,7 +34,7 @@
 .decimal { grid-area: decimalBtn; }
 
 .calculator {
-  margin: 0 10vw;
+  margin: 0 25vw;
   border: solid black 1px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -52,13 +52,23 @@
 
 .calculator > * {
   border-radius: 0%;
-  border: solid rgba(155, 155, 155, 0.2) 0.5px;
+  border: solid rgba(155, 155, 155, 0.3) 0.5px;
+  min-height: 50px;
+  font-size: large;
 }
 
-#result-display {
-  grid-column: 1 / 5;
-  grid-row: 1;
+.gray {
   text-align: end;
   padding-right: 10px;
   background-color: gray;
+  color: white;
+}
+
+.orange {
+  background-color: rgb(216, 106, 17);
+  border: solid rgba(255, 255, 255, 0.3) 0.5px;
+}
+
+.orange:hover {
+  background-color: rgb(190, 98, 22);
 }

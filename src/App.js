@@ -6,13 +6,13 @@ function App() {
       <header className="App-header">Header</header>
       <body>
         <div className="calculator">
-          <input type="text" className="calculator-screen" />
+          <input type="text" className="calculator-screen gray" value="0" disabled />
 
-          <button type="button" className="operator divide" value="/">&divide;</button>
-          <button type="button" className="operator multiply" value="*">&times;</button>
-          <button type="button" className="operator substract" value="-">-</button>
-          <button type="button" className="operator add" value="+">+</button>
-          <button type="button" className="equal-sign" value="=">=</button>
+          <button type="button" className="operator divide orange" value="/">&divide;</button>
+          <button type="button" className="operator multiply orange" value="*">&times;</button>
+          <button type="button" className="operator substract orange" value="-">-</button>
+          <button type="button" className="operator add orange" value="+">+</button>
+          <button type="button" className="equal-sign orange" value="=">=</button>
 
           <button type="button" className="all-clear" value="all-clear">AC</button>
           <button type="button" className="invert-sign" value="invert-sign">+/-</button>
