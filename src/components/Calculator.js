@@ -2,16 +2,12 @@ import React from 'react';
 import './Calculator.css';
 import calculate from '../logic/calculate';
 
-class Calculator extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      total: '0',
-      next: null,
-      operation: null,
-    };
-    this.handleClick = this.handleClick.bind(this);
-  }
+const Calculator = () => {
+  const initialItems = {
+    total: null,
+    next: null,
+    operation: null,
+  };
 
   handleClick(event) {
     this.setState((state) => (
