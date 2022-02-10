@@ -23,9 +23,9 @@ const Calculator = () => {
       <>
         <div className="calculator">
           <div className="calculator-screen gray">
-            {total !== null ? total : null}
-            {operation !== null ? operation : null}
-            {next !== null ? next : null}
+            {items.total !== null ? items.total : null}
+            {items.operation !== null ? items.operation : null}
+            {items.next !== null ? items.next : null}
           </div>
 
           <button type="button" className="operator divide orange" value="÷" onClick={this.handleClick}>&divide;</button>
