@@ -46,9 +46,13 @@
 
 .gray {
   text-align: end;
+  vertical-align: middle;
+  line-height: 60px;
+  font-size: 2rem;
   padding-right: 10px;
   background-color: gray;
   color: white;
+  overflow: hidden;
 }
 
 .orange {
