@@ -30,15 +30,15 @@ class Calculator extends React.Component {
             {next !== null ? next : null}
           </div>
 
-          <button type="button" className="operator divide orange" value="/" onClick={this.handleClick}>&divide;</button>
-          <button type="button" className="operator multiply orange" value="*" onClick={this.handleClick}>&times;</button>
+          <button type="button" className="operator divide orange" value="÷" onClick={this.handleClick}>&divide;</button>
+          <button type="button" className="operator multiply orange" value="x" onClick={this.handleClick}>&times;</button>
           <button type="button" className="operator substract orange" value="-" onClick={this.handleClick}>-</button>
           <button type="button" className="operator add orange" value="+" onClick={this.handleClick}>+</button>
           <button type="button" className="equal-sign orange" value="=" onClick={this.handleClick}>=</button>
 
-          <button type="button" className="all-clear" value="all-clear" onClick={this.handleClick}>AC</button>
-          <button type="button" className="invert-sign" value="invert-sign" onClick={this.handleClick}>+/-</button>
-          <button type="button" className="percentage" value="percentage" onClick={this.handleClick}>%</button>
+          <button type="button" className="all-clear" value="AC" onClick={this.handleClick}>AC</button>
+          <button type="button" className="invert-sign" value="+/-" onClick={this.handleClick}>+/-</button>
+          <button type="button" className="percentage" value="%" onClick={this.handleClick}>%</button>
 
           <button type="button" className="number-key zero" value="0" onClick={this.handleClick}>0</button>
           <button type="button" className="number-key one" value="1" onClick={this.handleClick}>1</button>
