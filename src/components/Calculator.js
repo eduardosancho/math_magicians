@@ -4,7 +4,7 @@ import calculate from '../logic/calculate';
 
 const Calculator = () => {
   const initialItems = {
-    total: null,
+    total: '0',
     next: null,
     operation: null,
   };
