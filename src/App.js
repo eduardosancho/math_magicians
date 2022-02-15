@@ -8,9 +8,9 @@ const App = () => (
     <header className="App-header">Header</header>
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="about" element={<About />} />
+      <Route path="myCalculator" element={<MyCalculator />} />
+      <Route path="quote" element={<Quote />} />
     </Routes>
-    <Calculator />
   </div>
 );
 
@@ -22,13 +22,17 @@ function Home() {
         <p>You can do this, I believe in you.</p>
       </main>
       <nav>
-        <Link to="/about">About</Link>
+        <Link to="/">Home</Link>
+        <Link to="/myCalculator">Calculator</Link>
+        <Link to="/quote">Quote</Link>
       </nav>
+      <Calculator />
+
     </>
   );
 }
 
-function About() {
+function MyCalculator() {
   return (
     <>
       <main>
@@ -39,6 +43,23 @@ function About() {
       </main>
       <nav>
         <Link to="/">Home</Link>
+        <Link to="/myCalculator">Calculator</Link>
+        <Link to="/quote">Quote</Link>
+      </nav>
+    </>
+  );
+}
+
+function Quote() {
+  return (
+    <>
+      <main>
+        <p>Place a quote here!</p>
+      </main>
+      <nav>
+        <Link to="/">Home</Link>
+        <Link to="/myCalculator">Calculator</Link>
+        <Link to="/quote">Quote</Link>
       </nav>
     </>
   );
