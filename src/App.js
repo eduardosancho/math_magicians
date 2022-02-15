@@ -9,9 +9,11 @@ const App = () => (
     <header className="App-header">Header</header>
     <nav>
       <h1>Math Magicians</h1>
-      <Link to="/">Home</Link>
-      <Link to="/myCalculator">Calculator</Link>
-      <Link to="/quote">Quote</Link>
+      <ul>
+        <Link to="/">Home</Link>
+        <Link to="/myCalculator">Calculator</Link>
+        <Link to="/quote">Quote</Link>
+      </ul>
     </nav>
     <Routes>
       <Route path="/" element={<Home />} />

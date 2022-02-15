@@ -11,3 +11,27 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav h1 {
+  padding-left: 1rem;
+}
+
+nav ul a {
+  border-right: 2px solid #636363;
+  display: inline-block;
+  padding: 0 15px;
+}
+
+nav ul a:last-child {
+  border-right: 0;
+}
+
+main {
+  text-align: left;
+  padding: 1.2rem;
+}
