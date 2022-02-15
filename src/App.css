@@ -26,3 +26,8 @@ main {
   display: flex;
   justify-content: space-around;
 }
+
+.quote-container {
+  padding: 25% 5%;
+  font-size: 1.4rem;
+}
