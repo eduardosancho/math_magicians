@@ -21,3 +21,8 @@ main {
   text-align: left;
   padding: 0 1.2rem;
 }
+
+.calculator-container {
+  display: flex;
+  justify-content: space-around;
+}

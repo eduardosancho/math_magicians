@@ -37,14 +37,11 @@ function MyCalculator() {
   return (
     <>
       <main>
-        <h2>Who are we?</h2>
-        <p>
-          That feels like an existential question, don`t you think?
-        </p>
+        <div className="calculator-container">
+          <h2>Lets do some math!</h2>
+          <Calculator />
+        </div>
       </main>
-      <body>
-        <Calculator />
-      </body>
     </>
   );
 }
