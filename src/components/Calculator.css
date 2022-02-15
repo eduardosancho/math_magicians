@@ -21,7 +21,7 @@
 .decimal { grid-area: decimalBtn; }
 
 .calculator {
-  margin: 0 25vw;
+  width: 50vw;
   border: solid black 1px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
