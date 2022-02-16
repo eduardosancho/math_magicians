@@ -1,4 +1,4 @@
-import calculate from '../logic/calculate';
+import calculate from '../calculate';
 
 describe('Test calculate.js file', () => {
   it('Test that 2 + 2 equals 4', () => {
