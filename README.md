@@ -64,6 +64,9 @@ install and run stylelint, and eslint
 These linters will help you fit your code to this repo's syntax standard.
 <hr>
 
+### Notice on development tests 
+To keep consistency during the development of the app, we prepared some unit tests for its core functionality. To run these tests, you just need to type ```npm test``` in your terminal (After installation using ```npm install```). Tests are configured to run in watch mode so you can keep track of them during the development of the app. If you need to update the snapshots, document the reason properly both in the project and your PR.
+
 ### Deployment
 Once you're done with your changes, remember to ``git pull`` before doing ``git push``. 
 This will update your local copy of the project if someone else made changes to the repo while you worked on your part.
@@ -77,6 +80,14 @@ This will update your local copy of the project if someone else made changes to 
 - Twitter: [@sanchitobless](https://twitter.com/sanchitobless)
 - LinkedIn: [Eduardo](https://www.linkedin.com/in/eduardo-sancho-043641181/)
 <hr>
+
+## Contributors
+
+👤 **Andrés Felipe Arroyave Naranjo**
+
+- GitHub: [@JohnFTitor](https://github.com/JohnFTitor)
+- Twitter: [@johnftitor](https://twitter.com/johnftitor)
+- LinkedIn: [Andres](https://www.linkedin.com/in/andresfelipe117/?locale=en_US)
 
 ## 🤝 Contributing
 
