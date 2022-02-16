@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Router behaviour When user presses Quote it will render Quote page 1`] = `
+<main>
+  <div
+    class="quote-container"
+  >
+    <p>
+      Mathematics is not about numbers, equations, computations, or algorithms; it is about understanding. -William Paul Thurston
+    </p>
+  </div>
+</main>
+`;
