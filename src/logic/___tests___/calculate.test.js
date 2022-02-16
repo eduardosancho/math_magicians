@@ -1,4 +1,5 @@
 import calculate from '../calculate';
+import operate from '../operate';
 
 describe('Test calculate.js file', () => {
   it('Test that 2 + 2 equals 4', () => {
@@ -142,5 +143,28 @@ describe('Test the conditions before the operations in calculate.js', () => {
       expect(next).toBe('0.');
       expect(returnedObj.operation).toBeUndefined();
     });
+  });
+});
+
+describe('Tests for operate.js', () => {
+  it('test sum 4 + 5', () => {
+    const result = operate('4', '5', '+');
+    expect(result).toBe('9');
+  });
+  it('test sum 4 - 5', () => {
+    const result = operate('4', '5', '-');
+    expect(result).toBe('-1');
+  });
+  it('test sum 4 * 5', () => {
+    const result = operate('4', '5', 'x');
+    expect(result).toBe('20');
+  });
+  it('test sum 20 / 5', () => {
+    const result = operate('20', '5', '÷');
+    expect(result).toBe('4');
+  });
+  it('test sum 20 % 5', () => {
+    const result = operate('20', '5', '%');
+    expect(result).toBe('0');
   });
 });
