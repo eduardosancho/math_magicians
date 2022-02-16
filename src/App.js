@@ -27,7 +27,18 @@ function Home() {
     <>
       <main>
         <h2>Welcome to our homepage!</h2>
-        <LoremIpsum p={2} />
+        <p>
+          Lorem ipsum odor amet, consectetuer adipiscing elit. Hac luctus mi et neque non interdum nisi dapibus.
+          Natoque vestibulum penatibus consectetur purus neque nullam. Ante sodales fermentum varius, sodales curabitur fames eros.
+          Habitant rutrum tincidunt at luctus nam cubilia. Himenaeos facilisi suspendisse libero ac massa viverra potenti condimentum.
+          Habitasse non hac lacinia; vulputate eget amet libero placerat. Facilisi gravida dapibus elementum arcu justo lacus felis.
+        </p>
+        <p>
+          Venenatis dictum odio auctor consectetur cursus tristique habitasse feugiat. In nisl duis congue rhoncus egestas congue a.
+          Faucibus aliquet fames nascetur orci placerat vehicula nunc. Mollis mauris class fames malesuada; molestie curabitur senectus.
+          Tempor etiam cursus diam dolor mattis convallis himenaeos. Tortor varius nullam malesuada primis lacinia nascetur proin aliquam porttitor.
+          Vel dui pretium ullamcorper pellentesque nisi per montes vehicula.
+        </p>
       </main>
     </>
   );
