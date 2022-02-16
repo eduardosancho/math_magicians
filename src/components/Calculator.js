@@ -16,7 +16,7 @@ const Calculator = () => {
   return (
     <>
       <div className="calculator">
-        <div className="calculator-screen gray">
+        <div className="calculator-screen gray" data-testid="calculator-screen-id">
           {items.total !== null ? items.total : null}
           {items.operation !== null ? items.operation : null}
           {items.next !== null ? items.next : null}
