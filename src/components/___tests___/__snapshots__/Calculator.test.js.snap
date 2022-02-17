@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test render of Calculator component Calculator elements are rendered correctly 1`] = `
+<div>
+  <div
+    class="calculator"
+  >
+    <div
+      class="calculator-screen gray"
+      data-testid="calculator-screen-id"
+    >
+      0
+    </div>
+    <button
+      class="operator divide orange"
+      type="button"
+      value="÷"
+    >
+      ÷
+    </button>
+    <button
+      class="operator multiply orange"
+      type="button"
+      value="x"
+    >
+      ×
+    </button>
+    <button
+      class="operator substract orange"
+      type="button"
+      value="-"
+    >
+      -
+    </button>
+    <button
+      class="operator add orange"
+      type="button"
+      value="+"
+    >
+      +
+    </button>
+    <button
+      class="equal-sign orange"
+      type="button"
+      value="="
+    >
+      =
+    </button>
+    <button
+      class="all-clear"
+      type="button"
+      value="AC"
+    >
+      AC
+    </button>
+    <button
+      class="invert-sign"
+      type="button"
+      value="+/-"
+    >
+      +/-
+    </button>
+    <button
+      class="percentage"
+      type="button"
+      value="%"
+    >
+      %
+    </button>
+    <button
+      class="number-key zero"
+      type="button"
+      value="0"
+    >
+      0
+    </button>
+    <button
+      class="number-key one"
+      type="button"
+      value="1"
+    >
+      1
+    </button>
+    <button
+      class="number-key two"
+      type="button"
+      value="2"
+    >
+      2
+    </button>
+    <button
+      class="number-key three"
+      type="button"
+      value="3"
+    >
+      3
+    </button>
+    <button
+      class="number-key four"
+      type="button"
+      value="4"
+    >
+      4
+    </button>
+    <button
+      class="number-key five"
+      type="button"
+      value="5"
+    >
+      5
+    </button>
+    <button
+      class="number-key six"
+      type="button"
+      value="6"
+    >
+      6
+    </button>
+    <button
+      class="number-key seven"
+      type="button"
+      value="7"
+    >
+      7
+    </button>
+    <button
+      class="number-key eight"
+      type="button"
+      value="8"
+    >
+      8
+    </button>
+    <button
+      class="number-key nine"
+      type="button"
+      value="9"
+    >
+      9
+    </button>
+    <button
+      class="decimal"
+      type="button"
+      value="."
+    >
+      .
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Test render of Calculator component If buttons 5 and + are pressed,
+  Then we press 6 button and then =, Calculator screen should change display from 0 to 11 1`] = `
+<div
+  class="calculator-screen gray"
+  data-testid="calculator-screen-id"
+>
+  11
+</div>
+`;
+
+exports[`Test render of Calculator component If buttons 5 and - are pressed,
+  Then we press 6 button and then =, Calculator screen should change display from 0 to -1 1`] = `
+<div
+  class="calculator-screen gray"
+  data-testid="calculator-screen-id"
+>
+  -1
+</div>
+`;
+
+exports[`Test render of Calculator component If buttons 5 and 6 are pressed, Calculator screen should change display from 0 to 56 1`] = `
+<div
+  class="calculator-screen gray"
+  data-testid="calculator-screen-id"
+>
+  56
+</div>
+`;
+
+exports[`Test render of Calculator component If buttons 5 and x are pressed,
+  Then we press 6 button and then =, Calculator screen should change display from 0 to 30 1`] = `
+<div
+  class="calculator-screen gray"
+  data-testid="calculator-screen-id"
+>
+  30
+</div>
+`;
