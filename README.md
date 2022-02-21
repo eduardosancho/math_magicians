@@ -9,9 +9,8 @@ It is a Single Page App (SPA) that allows users to: Make simple calculations and
 
 ## Live Demo
 
-- [Here](https://eduardosancho.github.io/math_magicians/) you'll find access to see the GitHub Repo.
-- Checkout the [live version](https://eduardosancho-math-magicians.herokuapp.com/) deployed with Heroku.
-- And compare it with the deployment made via Netlify by clicking [here](https://confident-haibt-232864.netlify.app/).
+- Checkout the [live version](https://eduardosancho-math-magicians.herokuapp.com/) deployed with ``Heroku``.
+- And compare it with the deployment made via ``Netlify`` by clicking [here](https://confident-haibt-232864.netlify.app/).
 <hr>
 
 ## Built With
