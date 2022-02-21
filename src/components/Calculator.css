@@ -1,0 +1,65 @@
+
+.calculator-screen { grid-area: result; }
+.divide { grid-area: divideBtn; }
+.multiply { grid-area: multiplyBtn; }
+.substract { grid-area: substractBtn; }
+.add { grid-area: addBtn; }
+.equal-sign { grid-area: equalBtn; }
+.all-clear { grid-area: clearBtn; }
+.invert-sign { grid-area: invertBtn; }
+.percentage { grid-area: percentageBtn; }
+.zero { grid-area: zeroBtn; }
+.one { grid-area: oneBtn; }
+.two { grid-area: twoBtn; }
+.three { grid-area: threeBtn; }
+.four { grid-area: fourBtn; }
+.five { grid-area: fiveBtn; }
+.six { grid-area: sixBtn; }
+.seven { grid-area: sevenBtn; }
+.eight { grid-area: eightBtn; }
+.nine { grid-area: nineBtn; }
+.decimal { grid-area: decimalBtn; }
+
+.calculator {
+  width: 50vw;
+  border: solid black 1px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 0;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "result result result result"
+    "clearBtn invertBtn percentageBtn divideBtn"
+    "sevenBtn eightBtn nineBtn multiplyBtn"
+    "fourBtn fiveBtn sixBtn substractBtn"
+    "oneBtn twoBtn threeBtn addBtn"
+    "zeroBtn zeroBtn decimalBtn equalBtn";
+}
+
+.calculator > * {
+  border-radius: 0%;
+  border: solid rgba(155, 155, 155, 0.3) 0.5px;
+  min-height: 50px;
+  font-size: large;
+}
+
+.gray {
+  text-align: end;
+  vertical-align: middle;
+  line-height: 60px;
+  font-size: 2rem;
+  padding-right: 10px;
+  background-color: gray;
+  color: white;
+  overflow: hidden;
+}
+
+.orange {
+  background-color: rgb(216, 106, 17);
+  border: solid rgba(255, 255, 255, 0.3) 0.5px;
+}
+
+.orange:hover {
+  background-color: rgb(190, 98, 22);
+}

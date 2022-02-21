@@ -1,0 +1,182 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Router behaviour When user presses Calculator in navbar it will render Calculator page 1`] = `
+<main>
+  <div
+    class="calculator-container"
+  >
+    <h2>
+      Lets do some math!
+    </h2>
+    <div
+      class="calculator"
+    >
+      <div
+        class="calculator-screen gray"
+        data-testid="calculator-screen-id"
+      >
+        0
+      </div>
+      <button
+        class="operator divide orange"
+        type="button"
+        value="÷"
+      >
+        ÷
+      </button>
+      <button
+        class="operator multiply orange"
+        type="button"
+        value="x"
+      >
+        ×
+      </button>
+      <button
+        class="operator substract orange"
+        type="button"
+        value="-"
+      >
+        -
+      </button>
+      <button
+        class="operator add orange"
+        type="button"
+        value="+"
+      >
+        +
+      </button>
+      <button
+        class="equal-sign orange"
+        type="button"
+        value="="
+      >
+        =
+      </button>
+      <button
+        class="all-clear"
+        type="button"
+        value="AC"
+      >
+        AC
+      </button>
+      <button
+        class="invert-sign"
+        type="button"
+        value="+/-"
+      >
+        +/-
+      </button>
+      <button
+        class="percentage"
+        type="button"
+        value="%"
+      >
+        %
+      </button>
+      <button
+        class="number-key zero"
+        type="button"
+        value="0"
+      >
+        0
+      </button>
+      <button
+        class="number-key one"
+        type="button"
+        value="1"
+      >
+        1
+      </button>
+      <button
+        class="number-key two"
+        type="button"
+        value="2"
+      >
+        2
+      </button>
+      <button
+        class="number-key three"
+        type="button"
+        value="3"
+      >
+        3
+      </button>
+      <button
+        class="number-key four"
+        type="button"
+        value="4"
+      >
+        4
+      </button>
+      <button
+        class="number-key five"
+        type="button"
+        value="5"
+      >
+        5
+      </button>
+      <button
+        class="number-key six"
+        type="button"
+        value="6"
+      >
+        6
+      </button>
+      <button
+        class="number-key seven"
+        type="button"
+        value="7"
+      >
+        7
+      </button>
+      <button
+        class="number-key eight"
+        type="button"
+        value="8"
+      >
+        8
+      </button>
+      <button
+        class="number-key nine"
+        type="button"
+        value="9"
+      >
+        9
+      </button>
+      <button
+        class="decimal"
+        type="button"
+        value="."
+      >
+        .
+      </button>
+    </div>
+  </div>
+</main>
+`;
+
+exports[`Test Router behaviour When user presses Home in navbar it will render Home page 1`] = `
+<main>
+  <h2>
+    Welcome to our homepage!
+  </h2>
+  <p>
+    Lorem ipsum odor amet, consectetuer adipiscing elit. Hac luctus mi et neque non interdum nisi dapibus. Natoque vestibulum penatibus consectetur purus neque nullam. Ante sodales fermentum varius, sodales curabitur fames eros. Habitant rutrum tincidunt at luctus nam cubilia. Himenaeos facilisi suspendisse libero ac massa viverra potenti condimentum. Habitasse non hac lacinia; vulputate eget amet libero placerat. Facilisi gravida dapibus elementum arcu justo lacus felis.
+  </p>
+  <p>
+    Venenatis dictum odio auctor consectetur cursus tristique habitasse feugiat. In nisl duis congue rhoncus egestas congue a. Faucibus aliquet fames nascetur orci placerat vehicula nunc. Mollis mauris class fames malesuada; molestie curabitur senectus. Tempor etiam cursus diam dolor mattis convallis himenaeos. Tortor varius nullam malesuada primis lacinia nascetur proin aliquam porttitor. Vel dui pretium ullamcorper pellentesque nisi per montes vehicula.
+  </p>
+</main>
+`;
+
+exports[`Test Router behaviour When user presses Quote in navbar it will render Quote page 1`] = `
+<main>
+  <div
+    class="quote-container"
+  >
+    <p>
+      Mathematics is not about numbers, equations, computations, or algorithms; it is about understanding. -William Paul Thurston
+    </p>
+  </div>
+</main>
+`;

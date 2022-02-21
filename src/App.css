@@ -1,0 +1,33 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav h1 {
+  padding-left: 1rem;
+}
+
+nav ul a {
+  border-right: 2px solid #636363;
+  display: inline-block;
+  padding: 0 15px;
+}
+
+nav ul a:last-child {
+  border-right: 0;
+}
+
+main {
+  text-align: left;
+  padding: 0 1.2rem;
+}
+
+.calculator-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.quote-container {
+  padding: 25% 5%;
+  font-size: 1.4rem;
+}
